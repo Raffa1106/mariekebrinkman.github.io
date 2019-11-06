@@ -1,0 +1,221 @@
+
+  body{
+      background-color:  #444;
+      height: 25%;
+  }
+
+h1{
+    font-size: 5em;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin: 40px;
+}
+
+img {
+    height: 400px;
+    width: 350px;
+    flex: 66mm;
+    align-items: baseline;
+    position: relative;
+    top: 100px;
+    left: 560px;
+    
+
+}
+
+ h2{
+    font-size: 1em;
+    text-align: center;
+    color: greenyellow;
+    font-family: 'Oswald', sans-serif;
+    margin: -50px
+ }
+
+
+.tabon{
+    align-items: baseline;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.flex-container{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  background: rgb(71, 71, 70);
+  justify-content: center;
+  align-items: center;
+  border-color: yellowgreen;
+  margin: 200px 400px 200px 360px;
+  
+ 
+}
+.box {
+  display: flex;
+  justify-content: flex-start;
+  height: 300px;
+  width: 20%;
+  background:  rgb(99, 86, 86)k;
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 1.4em;
+  color: greenyellow;
+}
+.box2 {
+  flex-direction: unset;
+  height: 0px;
+  width: 0%;
+  background:  rgb(99, 86, 86)k;
+  margin: -20px;
+  
+  font-size: 1.4em;
+  text-align: left;
+  color: greenyellow;
+  align-items:left;
+}
+
+.middle{
+  position: absolute;
+  margin: -300px 0px 50px 10px;
+  width: 25%;
+  height: 520px;
+  background-size: 1366px 668px;
+  border-radius: 1px;
+  border-color: yellowgreen;
+  }	
+  .menumiddle {
+    list-style-type: none;
+    position: absolute;
+    border-top: 1px solid grey;
+    background: rgb(39, 39, 39);
+    height: 100%;
+    border-radius: 1px;
+    border-color: yellowgreen;
+    text-align: center;
+    }
+    
+    .menumiddle li {
+        margin-top: 10px;
+        color: #fff;
+        padding: 28px;
+        align-items: center;
+        border-radius: 1px;
+        border-color: yellowgreen;
+    }
+    
+    .menumiddle li a {
+        transition: 0.2s;
+        line-height: center;
+        font-family: Arial;
+        text-align: center;
+        border-radius: 1px;
+    }
+    
+    
+    .menumiddle li:hover {
+        transition: 0.2s;
+        color: black;
+        border-radius: 1px;
+    }
+    .footer{
+      width: 100%;
+      background: rgb(99, 86, 86)nk;
+      bottom: 0;
+      text-align: center;
+      font-size: 13px;
+      color: yellowgreen;
+      position: absolute;
+      border-top: 1px solid rgb(99, 86, 86);
+      margin: -170px;
+      left: 190px;
+      
+      }
+      
+      
+      button.dislike{
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+        line-heigth: 50px;
+        border-radius: 50%;
+        color: rgba(255,82,82 ,1);
+        background-color: rgba(255,138,128 ,0.3);
+        border-color: rgba(255,82,82 ,1);
+        border-width: 1px;
+        font-size: 15px;
+      }
+      
+      button.learnmore{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background: rgba(0,151,167 ,1);
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 1px;
+      }
+      .menumiddle2 {
+        list-style-type: none;
+        position: absolute;
+        border-top: 1px solid grey;
+        background: rgb(39, 39, 39);
+        margin:-500px 0px -100px -10px;
+        height: 10%;
+        border-radius: 1px;
+        border-color: yellowgreen;
+        text-align: center;
+        }
+
+        .footer2{
+          width: 100%;
+          background: rgb(99, 86, 86)nk;
+          bottom: 0;
+          text-align: center;
+          font-size: 13px;
+          color: yellowgreen;
+          position: baseline ;
+          border-top: 1px solid rgb(99, 86, 86);
+          left: 190px;
+          margin-top:600px
+          }
+          .genki{
+            position: center;
+            margin-top: -33%;
+            
+          }
+          .genki_img{
+            width:125px;
+            height: 125px;
+            left: 630px;
+          
+          }
+          .crg{
+            width:125px;
+            height: 125px;
+            left: 500px;
+            top: -340px;
+            
+           
+          
+          }
+          .crg_{
+            position: center;
+            margin-top: -35%;
+           
+          }
+          .i{
+         position: baseline ;
+          }
+
+}
+
+
+
+ 
+}

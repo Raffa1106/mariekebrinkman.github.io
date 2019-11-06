@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+    
+        <h1>Raffa Lemmer</h1>
+        
+    
+    
+    
+        <title>Portfolio</title>
+        <script> 
+                var image_tracker  ='r';
+                        function change() {
+                            var image = document.getElementById('kwek');
+                            if(image_tracker=='r') {
+                                image.src ='Sage.png';
+                                image_tracker = 's';
+                            }else{
+                                image.src = 'Raffa.png';
+                                image_tracker = 'r';
+                            }
+                        }
+        </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+    <body>
+            
+        <h2>Ik ben een student van het ROC van Amstelveen. Tot nu toe heb ik de basis van HTML, CSS en Javascript geleerd.</h2>
+       
+            <img src="Raffa.png" alt="R1999SAGE!" id="kwek" onclick="change()">
+            <div class="middle">
+                <ul class="menumiddle">
+                    <li><a href="nieuws.html">nieuws</a></li>
+                    <li><a href="over-mij.html">over mij</a></li>
+                    <li><a href="projecten.html">projecten</a></li>
+                    <li><a href="vaardigheden.html">vaardigheden</a></li>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="contact.html">contact</a></li>
+
+            </div>
+
+    		<div class="footer">
+                like of dislike --> <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                <p id="date"></p>
+            </div>
+            <script type="text/javascript">
+        document.getElementById("date").innerHTML = Date();
+
+
+                </script>
+               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+               
+                <script>
+                function  myFunction(x) {
+                        x.classList.toggle("fa-thumbs-down");
+                      }
+                      </script>
+        </body>
+</html>
